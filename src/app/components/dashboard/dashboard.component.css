@@ -1,0 +1,14 @@
+h2 {
+    color: gray;
+}
+
+.hero-list a {
+    display: block;
+    background-color: cornflowerblue;
+    padding: 5px 10px;
+    margin: 5px 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    text-decoration: none;
+}

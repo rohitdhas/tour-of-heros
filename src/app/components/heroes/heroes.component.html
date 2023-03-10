@@ -1,0 +1,4 @@
+<h2>All Heros</h2>
+<div class="hero-list">
+  <a *ngFor="let hero of heros" routerLink="/editor/{{ hero.id }}">{{hero.id}} - {{hero.name}}</a>
+</div>

@@ -1,0 +1,14 @@
+<div *ngIf="!currentHero; else heroDetails" class="error-message">
+    <p>Invalid Hero ID ❌</p>
+    <button (click)="goBack($event)">Go Back</button>
+</div>
+
+<ng-template #heroDetails>
+    <h2>{{currentHero?.name}} Details</h2>
+    <p>Hero ID: {{currentHero?.id}}</p>
+    <form>
+        <label>Name: </label>
+        <input (input)="updateHero($event)" type="text" />
+        <button (click)="goBack($event)">Go Back</button>
+    </form>
+</ng-template>

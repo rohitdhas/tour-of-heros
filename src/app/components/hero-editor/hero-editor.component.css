@@ -1,0 +1,33 @@
+h2 {
+    color: gray;
+}
+
+p {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > input {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 5px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(254, 78, 113);
+}
